@@ -71,7 +71,7 @@ The Vernam Cipher, also known as the one-time pad, is a symmetric key cipher whe
 - For each letter in the plaintext \( P \) and key \( K \):
   
   \[
-  C = (P + K) mod 26
+  C = (P XOR K) mod 26
   \]
 
 Where \( \oplus \) denotes the XOR operation.
